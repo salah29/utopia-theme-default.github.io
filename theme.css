@@ -85,6 +85,17 @@ body {
 
 }
 
+
+.game-content h2:first-child {
+  background:#000044;
+  color: #FFFFFF ;
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+
+
 #account-container {
     font-family: KnightsQuestRegular;
     font-size: 20px;
