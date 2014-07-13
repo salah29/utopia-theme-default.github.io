@@ -41,11 +41,6 @@ body {
 
 .navigation {
 
-    /* border styling */
-    border: 2px solid;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
 
     /* internal styling - padding etc. */
 
@@ -53,7 +48,7 @@ body {
     font-family: KnightsQuestRegular;
     font-size: 20px;
     font-weight: normal;
-    text-align: left;
+    text-align: center;
 
     -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
     -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
@@ -61,18 +56,7 @@ body {
     filter: glow(color=#252525,strength=3);
 
     /* colors */
-    border-color: #555555;
-    -moz-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    -webkit-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-
-    background: #494432; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #7b7354 0%, #29261c 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7b7354), color-stop(100%,#29261c)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* W3C */
+   
 }
 
 .navigation a {
@@ -481,7 +465,7 @@ h3 {
 }
 
 #game-navigation .current-date {
-
+    display:none;
     padding: 11px 0px;
 
     font-family: KnightsQuestRegular;
@@ -1138,40 +1122,13 @@ td.news-province-modification {
 }
 
 .game-content {
-    border: 2px solid;
+    border-left: 4px solid #fff;
 
     /* border styling */
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
 
-
-    /* colors */
-    border-color: #555555;
-    -moz-box-shadow:    0px -1px 1px #fffbf1,
-                                    inset 0px 1px 2px #000,
-                                    inset 0px -1px 1px #fffbf1,
-                                    0px 1px 1px #000,
-                                    -1px 0px 2px #000,
-                                    inset 1px 0px 1px #fffbf1,
-                                    inset -1px 0px 2px #000,
-                                    1px 0px 1px #fffbf1;
-    -webkit-box-shadow: 0px -1px 1px #fffbf1,
-                                        inset 0px 1px 2px #000,
-                                        inset 0px -1px 1px #fffbf1,
-                                        0px 1px 1px #000,
-                                        -1px 0px 2px #000,
-                                        inset 1px 0px 1px #fffbf1,
-                                        inset -1px 0px 2px #000,
-                                        1px 0px 1px #fffbf1;
-    box-shadow:     0px -1px 1px #fffbf1,
-                                inset 0px 1px 2px #000,
-                                inset 0px -1px 1px #fffbf1,
-                                0px 1px 1px #000,
-                                -1px 0px 2px #000,
-                                inset 1px 0px 1px #fffbf1,
-                                inset -1px 0px 2px #000,
-                                1px 0px 1px #fffbf1;
 }
 
 .game-content h2 {
